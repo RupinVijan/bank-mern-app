@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backed for the project",
+  "main": "auth.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node auth.js",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix my-bank && npm run build --prefix my-bank"
+  },
+  "author": "Rupin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10"
+  }
+}
