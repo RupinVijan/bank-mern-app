@@ -2,7 +2,7 @@ const express = require('express')
 const router =express.Router()
 
 const mongoose=require('mongoose')
-MongoDbURL='mongodb+srv://lms:rupin@cluster0.jbvdn.mongodb.net/bank-mern?retryWrites=true&w=majority';
+MongoDbURL=' ';
 mongoose.connect(MongoDbURL);
 var db=mongoose.connection;
 
